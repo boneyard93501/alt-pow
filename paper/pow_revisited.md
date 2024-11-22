@@ -107,6 +107,8 @@ Found 3 outliers among 20 measurements (15.00%)
 
 The performance seems quite suitable for subsequent hashing and applying the usual difficulty assessment to determine solution eligibility, aka golden hashes. As we can directly impact the graph configuration, it is very easy to change the program while undermining FPGA and ASIC solutions.
 
+>[!Note]
+> The benches are executed on a M2 max without pinning.
 
 >[!Note]
 > I've been struggling with the verifier a bit and while the tests are working, there's still a problem with bigger graphs. Hence, i commented it out in benches and need to get back to it.
